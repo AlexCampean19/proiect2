@@ -1,0 +1,534 @@
+@media (min-width: 320px) {
+  main .container {
+    padding: 0 16px;
+  }
+  main .detaliu {
+    padding: 13px 0 20px 0;
+    margin: 0;
+  }
+  main .hmpage {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 11px;
+  }
+  main .hmpage a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #D9D9D9;
+  }
+  main img {
+    border: 1px solid #646464;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  main h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #1D1929;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 23px;
+  }
+  main .stele {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+  }
+  main .stele p {
+    margin: 0;
+    padding-left: 5.5px;
+  }
+  main .stele p.unu, main .stele p.doi {
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 0;
+    text-align: center;
+    overflow-wrap: unset;
+    letter-spacing: 3.5px;
+  }
+  main .stele p.unu span, main .stele p.doi span {
+    display: none;
+  }
+  main .stele p.unu:after, main .stele p.doi:after {
+    content: "\f005\f005\f005\f005\f005";
+    color: #646464;
+  }
+  main .stele p.doi {
+    max-width: 80px;
+    overflow: hidden;
+    position: absolute;
+  }
+  main .stele p.doi:after {
+    color: #FFDE54;
+  }
+  main .stele p.doi.unu {
+    position: relative;
+  }
+  main .preturi2 {
+    padding-top: 6px;
+  }
+  main .preturi2 p {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24.3px;
+    color: #CA8383;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    display: inline-block;
+  }
+  main .preturi2 span {
+    text-decoration: line-through;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24.3px;
+    color: #000000;
+  }
+  main .detaliu {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #1D1929;
+  }
+  main h4 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #77757F;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  main .cumparaturi {
+    border-radius: 16px;
+    background-color: #059E67;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 18px;
+    color: #1D1929;
+    font-weight: 900;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    padding: 11.5px 0;
+    margin-top: 10px;
+  }
+  main .cumparaturi:after {
+    content: "\f290";
+    background-color: #059E67;
+    color: white;
+  }
+  main .cumparaturi span {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+  main .detaliifructe {
+    padding-bottom: 16px;
+    padding-top: 18px;
+  }
+  main .detaliifructe h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #059E67;
+    margin: 0;
+  }
+  main .detaliifructe p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #1D1929;
+    margin: 0;
+    padding: 0;
+  }
+  main .detaliifructe ul {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #1D1929;
+    margin: 0;
+    padding-left: 10px;
+    list-style-position: inside;
+  }
+  main input {
+    border: 2px solid;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+  main .butoane {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+  }
+  main .butoane span {
+    display: none;
+  }
+  main .butoane .plus {
+    border: 0;
+    background-color: transparent;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 18px;
+    color: #1D1929;
+    font-weight: 900;
+    padding: 0;
+    top: 17px;
+    right: 5px;
+    position: absolute;
+  }
+  main .butoane .plus:after {
+    content: "\f067";
+    color: #D9D9D9;
+  }
+  main .butoane .minus {
+    border: 0;
+    background-color: transparent;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 18px;
+    color: #1D1929;
+    font-weight: 900;
+    padding: 0;
+    position: absolute;
+    top: 17px;
+    left: 5px;
+  }
+  main .butoane .minus:before {
+    content: "\f068";
+    color: #D9D9D9;
+  }
+}
+@media (min-width: 600px) {
+  main .but2 {
+    width: 100%;
+  }
+  main .butoane {
+    width: 30%;
+  }
+  main .cumparaturi {
+    width: 60%;
+    margin-top: 0;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 800px) {
+  main .butoane {
+    display: inline-block;
+    width: 25%;
+  }
+  main .butoane .minus {
+    bottom: 33px;
+    left: 6px;
+    position: absolute;
+  }
+  main .butoane .plus {
+    top: 16px;
+    right: 7px;
+    position: absolute;
+  }
+  main .rating {
+    display: inline-block;
+    width: 100%;
+  }
+  main .bucati {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 55px;
+  }
+  main .buc1 {
+    width: 50%;
+  }
+  main .buc2 {
+    width: 45%;
+  }
+  main .but2 {
+    display: inline-block;
+    width: 100%;
+  }
+  main input {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  main .cumparaturi {
+    width: 50%;
+    margin-left: 15px;
+    margin-top: 0;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    padding-bottom: 24px;
+  }
+  main .rating {
+    font-size: 20px;
+  }
+  main .preturi2 {
+    padding: 0;
+    display: inline-block;
+    float: right;
+  }
+  main .stele p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #1D1929;
+    padding-left: 10px;
+  }
+  main .stele p.doi {
+    max-width: 96px;
+  }
+  main .stele p.unu, main .stele p.doi {
+    letter-spacing: 5px;
+    font-size: 18px;
+  }
+  main .hmpage {
+    padding: 48px 0 52px 0;
+  }
+  main .container {
+    padding: 0 40px;
+  }
+  main h1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #1D1929;
+    padding-bottom: 69px;
+    padding-top: 0px;
+  }
+  main .detaliu {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #1D1929;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  main .detaliifructe {
+    padding: 50px 0 50px 0;
+  }
+  main .detaliifructe h3 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #059E67;
+  }
+  main .detaliifructe ul {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #1D1929;
+  }
+  main .detaliifructe p {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #1D1929;
+  }
+  main .stele p .doi {
+    max-width: 60%;
+  }
+}
+@media (min-width: 320px) {
+  body {
+    margin: 0;
+  }
+
+  footer {
+    background-color: #F9F9F9;
+  }
+  footer a.poza {
+    display: none;
+  }
+  footer h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000000;
+  }
+  footer li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #1D1929;
+  }
+  footer p {
+    margin: 0;
+    padding: 30px 0 23px 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #000000;
+  }
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  footer .c1 {
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+  footer h3 {
+    padding: 16px 0 0 0;
+    margin: 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    background-color: #D9D9D9;
+  }
+  footer a.poza {
+    display: flex;
+    padding: 40px 0px;
+    justify-content: center;
+  }
+  footer a.poza img {
+    width: 211px;
+    height: auto;
+  }
+  footer .foter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer h3 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000000;
+  }
+  footer li a {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #1D1929;
+  }
+  footer p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #1D1929;
+  }
+  footer .c1 {
+    padding: 20px 0 0 0;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 320px) {
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 25px 54px;
+    margin: 0;
+    background-color: #D9D9D9;
+  }
+  header img {
+    height: auto;
+    width: 211px;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    padding: 25px 0px 25px 40px;
+    margin: 0;
+    background-color: #D9D9D9;
+    justify-content: start;
+  }
+  header img {
+    height: auto;
+    width: 211px;
+  }
+}
+body {
+  font-family: "Nunito Sans,sans-serif";
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*# sourceMappingURL=detalii.css.map */

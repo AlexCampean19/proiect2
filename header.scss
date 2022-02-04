@@ -1,0 +1,26 @@
+@media (min-width: 320px) {
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 25px 54px;
+        margin: 0;
+        background-color: $backfot;
+        img {
+            height: auto;
+            width: 211px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding: 25px 0px 25px 40px;
+        margin: 0;
+        background-color: $backfot;
+        justify-content: start;
+        img {
+            height: auto;
+            width: 211px;
+        }
+    }
+}
