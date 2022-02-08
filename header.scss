@@ -1,13 +1,15 @@
 @media (min-width: 320px) {
     header {
-        display: flex;
-        justify-content: center;
+        text-align: center;
         padding: 25px 54px;
         margin: 0;
         background-color: $backfot;
         img {
             height: auto;
             width: 211px;
+        }
+        a {
+            display: inline-block;
         }
     }
 }

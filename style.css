@@ -1,7 +1,6 @@
 @media (min-width: 320px) {
   header {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 25px 54px;
     margin: 0;
     background-color: #D9D9D9;
@@ -9,6 +8,9 @@
   header img {
     height: auto;
     width: 211px;
+  }
+  header a {
+    display: inline-block;
   }
 }
 @media (min-width: 1024px) {
@@ -78,9 +80,8 @@
     background-color: #D9D9D9;
   }
   footer a.poza {
-    display: flex;
+    display: inline-block;
     padding: 40px 0px;
-    justify-content: center;
   }
   footer a.poza img {
     width: 211px;
@@ -91,6 +92,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: left;
   }
   footer h3 {
     font-size: 22px;
@@ -114,8 +116,9 @@
     padding: 20px 0 0 0;
   }
 
-  .container {
+  .containerf {
     padding: 0 40px;
+    text-align: center;
   }
 }
 @media (min-width: 320px) {
@@ -159,6 +162,7 @@
   main .cutia1 form {
     padding: 24px 0 0 0;
     width: 100%;
+    position: relative;
   }
   main .cutia1 input {
     border-radius: 18px;
@@ -184,13 +188,12 @@
     color: #1D1929;
     font-weight: 900;
     position: absolute;
-    right: 20px;
+    right: 10px;
+    top: 37px;
     height: 32px;
   }
   main .cutia1 .buton:after {
     content: "\f002";
-    position: absolute;
-    right: 15px;
   }
   main .cutia1 .buton span {
     display: none;
@@ -334,9 +337,6 @@ main .fructe .detfruct {
   main .fructe .card1 .detalii .mbbuy {
     display: none;
   }
-  main .fructe .card1 .detalii .deskbuy {
-    display: none;
-  }
   main .fructe .card1 .detalii .salemb {
     border: 0;
     background-color: transparent;
@@ -359,9 +359,6 @@ main .fructe .detfruct {
     border-radius: 12px;
     color: white;
     border: 7px solid #059E67;
-  }
-  main .fructe .card1 .detalii .saledesk {
-    display: none;
   }
   main .fructe .cardfructe {
     display: flex;
@@ -458,6 +455,7 @@ main .fructe .detfruct {
     padding-top: 14.5px;
     position: relative;
     letter-spacing: 8px;
+    padding-bottom: 16px;
   }
   main .fructe .card1 .detalii .stele p {
     margin: 0;
@@ -502,6 +500,7 @@ main .fructe .detfruct {
     position: relative;
     overflow-wrap: unset;
     letter-spacing: 8px;
+    padding-bottom: 16px;
   }
   main .fructe .card1 .detalii .stele2 p {
     margin: 0;
@@ -545,6 +544,7 @@ main .fructe .detfruct {
     padding-top: 14.5px;
     position: relative;
     letter-spacing: 8px;
+    padding-bottom: 16px;
   }
   main .fructe .card1 .detalii .stele3 p {
     margin: 0;
@@ -582,9 +582,6 @@ main .fructe .detfruct {
     position: relative;
   }
   main .fructe .card1 .detalii .salemb {
-    display: none;
-  }
-  main .fructe .card1 .detalii .saledesk {
     border-radius: 16px;
     background-color: #059E67;
     font-family: "Font Awesome 5 Free";
@@ -599,31 +596,32 @@ main .fructe .detfruct {
     padding: 0;
     width: 100%;
     text-align: center;
-    padding: 11.5px 0;
+    padding: 15px 0;
     display: flex;
     align-items: baseline;
     justify-content: center;
+    display: flex;
   }
-  main .fructe .card1 .detalii .saledesk:after {
+  main .fructe .card1 .detalii .salemb:after {
     content: "\f290";
     background-color: #059E67;
     color: white;
+    font-size: 20px;
+    border: 0;
   }
-  main .fructe .card1 .detalii .deskbuy {
+  main .fructe .card1 .detalii .mbbuy {
     font-size: 14px;
     font-weight: bold;
     line-height: 16px;
     color: #FFFFFF;
     display: block;
   }
-  main .fructe .card1 .detalii .mbbuy {
-    display: none;
-  }
   main .fructe .card1 .detalii .detalii2 {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-end;
+    align-items: baseline;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 16px;
   }
@@ -675,7 +673,7 @@ main .fructe .detfruct {
   main .search2 .titlu h2 {
     font-size: 34px;
     font-weight: bold;
-    line-height: 39.78px;
+    line-height: 40px;
     color: #1D1929;
     margin: 0;
     text-align: left;
@@ -692,13 +690,13 @@ main .fructe .detfruct {
   main .search2 form {
     padding: 0 0 40px 72px;
     width: 45%;
+    position: relative;
   }
   main .search2 input {
     border-radius: 18px;
     border: 1px solid #E8E8EA;
     padding: 20px 57px 20px 24px;
     width: 100%;
-    position: relative;
   }
   main .search2 .buton {
     border: 0;
@@ -714,14 +712,12 @@ main .fructe .detfruct {
     color: #1D1929;
     font-weight: 900;
     position: absolute;
-    right: 55%;
+    right: 10px;
+    top: 15px;
     height: 32px;
   }
   main .search2 .buton:after {
     content: "\f002";
-    position: absolute;
-    right: 60%;
-    left: -50px;
   }
   main .search2 .buton span {
     display: none;
@@ -779,18 +775,12 @@ main .fructe .detfruct {
     line-height: 18px;
     color: #77757F;
   }
-  main .fructe .card1 .detalii .salemb {
-    display: none;
-  }
-  main .fructe .card1 .detalii .deskbuy {
+  main .fructe .card1 .detalii .mbbuy {
     font-size: 14px;
     font-weight: bold;
     line-height: 16px;
     color: #FFFFFF;
     display: block;
-  }
-  main .fructe .card1 .detalii .mbbuy {
-    display: none;
   }
   main .categori h2 {
     font-size: 28px;
@@ -826,9 +816,12 @@ main .fructe .detfruct {
   }
   main .search2 form {
     width: 38%;
+    position: relative;
   }
   main .search2 .buton {
-    right: 61%;
+    right: 15px;
+    top: 15px;
+    position: absolute;
   }
   main .fructe .card1 {
     width: calc((100% - 90px) / 4);
@@ -849,11 +842,16 @@ main .fructe .card1 .detalii .stele3 {
     margin-bottom: 29px;
     width: calc((100% - 93px) / 4);
   }
+  main .fructe .card1 .detalii .stele,
+main .fructe .card1 .detalii .stele2,
+main .fructe .card1 .detalii .stele3 {
+    padding-bottom: 0;
+  }
   main .fructe .card1 .detalii .gramaj {
     padding-bottom: 0px;
     padding-top: 10px;
   }
-  main .fructe .card1 .detalii .saledesk {
+  main .fructe .card1 .detalii .salemb {
     margin-top: 16px;
   }
   main .fructe .card1 .detalii .stele,
@@ -864,10 +862,10 @@ main .fructe .card1 .detalii .stele3 {
   main .fructe .card1:hover {
     box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.45);
   }
-  main .fructe .card1:hover .detalii .saledesk {
+  main .fructe .card1:hover .detalii .salemb {
     background-color: #00774C;
   }
-  main .fructe .card1:hover .detalii .saledesk::after {
+  main .fructe .card1:hover .detalii .salemb::after {
     background-color: #00774C;
   }
   main .fructe .det1,
@@ -893,13 +891,16 @@ main .fructe .det2 {
     padding: 7px;
   }
   main .fructe .detfruct {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     padding-bottom: 30px;
   }
   main .fructe .det4 {
-    display: inline-block;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
     width: 10%;
   }
   main .fructe .lista {
@@ -942,12 +943,6 @@ body {
 }
 
 * {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
   box-sizing: border-box;
 }
 

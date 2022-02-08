@@ -37,6 +37,7 @@
                 form {
                     padding: 24px 0 0 0;
                     width: 100%;
+                    position: relative;
                 }
                 input {
                     border-radius: 18px;
@@ -62,12 +63,11 @@
                     color: $cultitlu;
                     font-weight: 900;
                     position: absolute;
-                    right: 20px;
+                    right: 10px;
+                    top: 37px;
                     height: 32px;
                     &:after {
                         content: "\f002";
-                        position: absolute;
-                        right: 15px;
                     }
                     span {
                         display: none;
@@ -212,9 +212,6 @@
                         .mbbuy {
                             display: none;
                         }
-                        .deskbuy {
-                            display: none;
-                        }
                         .salemb {
                             border: 0;
                             background-color: transparent;
@@ -237,9 +234,6 @@
                                 color: white;
                                 border: 7px solid #059E67;
                             }
-                        }
-                        .saledesk {
-                            display: none;
                         }
                     }
                 }
@@ -341,6 +335,7 @@
                             padding-top: 14.5px;
                             position: relative;
                             letter-spacing: 8px;
+                            padding-bottom: 16px;
                             p {
                                 margin: 0;
                                 &.unu,
@@ -386,6 +381,7 @@
                             position: relative;
                             overflow-wrap: unset;
                             letter-spacing: 8px;
+                            padding-bottom: 16px;
                             p {
                                 margin: 0;
                                 &.unu,
@@ -430,6 +426,7 @@
                             padding-top: 14.5px;
                             position: relative;
                             letter-spacing: 8px;
+                            padding-bottom: 16px;
                             p {
                                 margin: 0;
                                 &.unu,
@@ -468,9 +465,6 @@
                             }
                         }
                         .salemb {
-                            display: none;
-                        }
-                        .saledesk {
                             border-radius: 16px;
                             background-color: $culbacklact;
                             font-family: "Font Awesome 5 Free";
@@ -485,31 +479,32 @@
                             padding: 0;
                             width: 100%;
                             text-align: center;
-                            padding: 11.5px 0;
+                            padding: 15px 0;
                             display: flex;
                             align-items: baseline;
                             justify-content: center;
+                            display: flex;
                             &:after {
                                 content: "\f290";
                                 background-color: $culbacklact;
                                 color: white;
+                                font-size: 20px;
+                                border: 0;
                             }
                         }
-                        .deskbuy {
+                        .mbbuy {
                             @include tipografie(14px,
                             bold,
                             16px,
                             $alb);
                             display: block;
                         }
-                        .mbbuy {
-                            display: none;
-                        }
                         .detalii2 {
                             display: flex;
                             flex-direction: row-reverse;
-                            align-items: flex-end;
+                            align-items: baseline;
                             width: 100%;
+                            flex-wrap: wrap;
                             justify-content: space-between;
                             padding-bottom: 16px;
                             .preturi2 {
@@ -567,7 +562,7 @@
                     h2 {
                         @include tipografie(34px,
                         bold,
-                        39.78px,
+                        40px,
                         $cultitlu);
                         margin: 0;
                         text-align: left;
@@ -585,13 +580,13 @@
                 form {
                     padding: 0 0 40px 72px;
                     width: 45%;
+                    position: relative;
                 }
                 input {
                     border-radius: 18px;
                     border: 1px solid $culborder;
                     padding: 20px 57px 20px 24px;
                     width: 100%;
-                    position: relative;
                 }
                 .buton {
                     border: 0;
@@ -607,13 +602,11 @@
                     color: $cultitlu;
                     font-weight: 900;
                     position: absolute;
-                    right: 55%;
+                    right: 10px;
+                    top: 15px;
                     height: 32px;
                     &:after {
                         content: "\f002";
-                        position: absolute;
-                        right: 60%;
-                        left: -50px;
                     }
                     span {
                         display: none;
@@ -670,18 +663,12 @@
                             18px,
                             $culsubtitlu);
                         }
-                        .salemb {
-                            display: none;
-                        }
-                        .deskbuy {
+                        .mbbuy {
                             @include tipografie(14px,
                             bold,
                             16px,
                             $alb);
                             display: block;
-                        }
-                        .mbbuy {
-                            display: none;
                         }
                     }
                 }
@@ -728,9 +715,12 @@
             .search2 {
                 form {
                     width: 38%;
+                    position: relative;
                 }
                 .buton {
-                    right: 61%;
+                    right: 15px;
+                    top: 15px;
+                    position: absolute;
                 }
             }
             .fructe {
@@ -762,11 +752,16 @@
                     margin-bottom: 29px;
                     width: calc((100% - 93px)/4);
                     .detalii {
+                        .stele,
+                        .stele2,
+                        .stele3 {
+                            padding-bottom: 0;
+                        }
                         .gramaj {
                             padding-bottom: 0px;
                             padding-top: 10px;
                         }
-                        .saledesk {
+                        .salemb {
                             margin-top: 16px;
                         }
                         .stele,
@@ -779,7 +774,7 @@
                 .card1:hover {
                     box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 45%);
                     .detalii {
-                        .saledesk {
+                        .salemb {
                             background-color: $cullachover;
                             &::after {
                                 background-color: $cullachover;
@@ -811,13 +806,16 @@
                     }
                 }
                 .detfruct {
-                    display: inline-block;
+                    display: flex;
+                    justify-content: space-between;
                     width: 100%;
                     padding-bottom: 30px;
                 }
                 .det4 {
-                    display: inline-block;
-                    float: right;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: baseline;
+                    justify-content: space-between;
                     width: 10%;
                 }
                 .lista {

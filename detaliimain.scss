@@ -100,7 +100,7 @@
                                 margin: 0;
                                 padding-bottom: 10px;
                             }
-                            .cumparaturi {
+                            .salemb {
                                 border-radius: 16px;
                                 background-color: $culbacklact;
                                 font-family: "Font Awesome 5 Free";
@@ -173,7 +173,7 @@
                                     color: $cultitlu;
                                     font-weight: 900;
                                     padding: 0;
-                                    top: 17px;
+                                    top: 20px;
                                     right: 5px;
                                     position: absolute;
                                     &:after {
@@ -196,7 +196,7 @@
                                     font-weight: 900;
                                     padding: 0;
                                     position: absolute;
-                                    top: 17px;
+                                    top: 20px;
                                     left: 5px;
                                     &:before {
                                         content: "\f068";
@@ -215,7 +215,7 @@
                             .butoane {
                                 width: 30%;
                             }
-                            .cumparaturi {
+                            .salemb {
                                 width: 60%;
                                 margin-top: 0;
                                 margin-left: 15px;
@@ -227,14 +227,14 @@
                         main {
                             .butoane {
                                 display: inline-block;
-                                width: 25%;
+                                width: 18%;
                                 .minus {
-                                    bottom: 33px;
+                                    top: 20px;
                                     left: 6px;
                                     position: absolute;
                                 }
                                 .plus {
-                                    top: 16px;
+                                    top: 20px;
                                     right: 7px;
                                     position: absolute;
                                 }
@@ -249,12 +249,6 @@
                                 grid-template-columns: 1fr 1fr;
                                 grid-gap: 55px;
                             }
-                            .buc1 {
-                                width: 50%;
-                            }
-                            .buc2 {
-                                width: 45%;
-                            }
                             .but2 {
                                 display: inline-block;
                                 width: 100%;
@@ -263,8 +257,9 @@
                                 width: 100%;
                                 text-align: center;
                                 box-sizing: border-box;
+                                padding-left: 18px;
                             }
-                            .cumparaturi {
+                            .salemb {
                                 width: 50%;
                                 margin-left: 15px;
                                 margin-top: 0;
