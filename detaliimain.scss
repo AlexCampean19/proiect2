@@ -10,6 +10,9 @@
                                 margin: 0;
                             }
                             .hmpage {
+                                span {
+                                    @include tipografie (14px, bold, 18px, $cultitlu);
+                                }
                                 width: 100%;
                                 padding-top: 10px;
                                 padding-bottom: 11px;
@@ -119,6 +122,7 @@
                                 text-align: center;
                                 padding: 11.5px 0;
                                 margin-top: 10px;
+                                text-decoration: none;
                                 &:after {
                                     content: "\f290";
                                     background-color: $culbacklact;
@@ -226,6 +230,19 @@
                     
                     @media (min-width:800px) {
                         main {
+                            h1 {
+                                padding-bottom: 69px;
+                            }
+                            .preturi2 {
+                                padding-top: 24px;
+                            }
+                            .hmpage {
+                                padding-bottom: 52px;
+                                padding-top: 48px;
+                            }
+                            .rating {
+                                font-size: 20px;
+                            }
                             .butoane {
                                 display: inline-block;
                                 width: 18%;
@@ -241,8 +258,11 @@
                                 }
                             }
                             .rating {
-                                display: inline-block;
+                                display: flex;
                                 width: 100%;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: baseline;
                             }
                             .bucati {
                                 display: grid;
@@ -258,7 +278,7 @@
                                 width: 100%;
                                 text-align: center;
                                 box-sizing: border-box;
-                                padding-left: 18px;
+                                padding-left: 8px;
                             }
                             .salemb {
                                 width: 50%;
@@ -266,14 +286,17 @@
                                 margin-top: 0;
                                 line-height: 1.5;
                             }
+                            .salemb:hover {
+                                background-color: $cullachover;
+                                &:after {
+                                    background-color: $cullachover;
+                                }
+                            }
                         }
                     }
                     
                     @media (min-width:1200px) {
                         main {
-                            .rating {
-                                font-size: 20px;
-                            }
                             .preturi2 {
                                 padding: 0;
                                 display: inline-block;
@@ -282,7 +305,7 @@
                             .stele {
                                 p {
                                     @include tipografie(14px, bold, 18px, $cultitlu);
-                                    padding-left: 10px;
+                                    padding-left: 120px;
                                     &.doi {
                                         max-width: 96px;
                                     }

@@ -828,7 +828,7 @@
                     a {
                         @include tipografie(14px,
                         bold,
-                        15.68px,
+                        16px,
                         $culsubtitlu);
                         text-decoration: none;
                     }
@@ -847,7 +847,7 @@
                     padding-bottom: 40px;
                 }
                 .card2:hover {
-                    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08), 0px 4px 56px rgba(0, 0, 0, 0.08);
+                    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08);
                     background-color: $alb;
                 }
             }

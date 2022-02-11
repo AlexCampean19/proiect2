@@ -11,6 +11,12 @@
     padding-top: 10px;
     padding-bottom: 11px;
   }
+  main .hmpage span {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #1D1929;
+  }
   main .hmpage a {
     text-decoration: none;
     font-size: 14px;
@@ -133,6 +139,7 @@
     text-align: center;
     padding: 11.5px 0;
     margin-top: 10px;
+    text-decoration: none;
   }
   main .salemb:after {
     content: "\f290";
@@ -246,6 +253,19 @@
   }
 }
 @media (min-width: 800px) {
+  main h1 {
+    padding-bottom: 69px;
+  }
+  main .preturi2 {
+    padding-top: 24px;
+  }
+  main .hmpage {
+    padding-bottom: 52px;
+    padding-top: 48px;
+  }
+  main .rating {
+    font-size: 20px;
+  }
   main .butoane {
     display: inline-block;
     width: 18%;
@@ -261,8 +281,11 @@
     position: absolute;
   }
   main .rating {
-    display: inline-block;
+    display: flex;
     width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
   }
   main .bucati {
     display: grid;
@@ -278,7 +301,7 @@
     width: 100%;
     text-align: center;
     box-sizing: border-box;
-    padding-left: 18px;
+    padding-left: 8px;
   }
   main .salemb {
     width: 50%;
@@ -286,13 +309,16 @@
     margin-top: 0;
     line-height: 1.5;
   }
+  main .salemb:hover {
+    background-color: #00774C;
+  }
+  main .salemb:hover:after {
+    background-color: #00774C;
+  }
 }
 @media (min-width: 1200px) {
   main {
     padding-bottom: 24px;
-  }
-  main .rating {
-    font-size: 20px;
   }
   main .preturi2 {
     padding: 0;
@@ -304,7 +330,7 @@
     font-weight: bold;
     line-height: 18px;
     color: #1D1929;
-    padding-left: 10px;
+    padding-left: 120px;
   }
   main .stele p.doi {
     max-width: 96px;
@@ -495,11 +521,6 @@ body {
 
 * {
   margin: 0;
-}
-
-html,
-body {
-  height: 100%;
 }
 
 img {
