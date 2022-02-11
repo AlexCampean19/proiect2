@@ -1,4 +1,7 @@
 @media (min-width: 320px) {
+  main .containerf {
+    padding: 0 16px;
+  }
   main .container {
     padding: 0 16px;
   }
@@ -433,6 +436,10 @@
   }
 
   .container {
+    padding: 0 16px;
+  }
+
+  .containerf {
     padding: 0 16px;
   }
 }

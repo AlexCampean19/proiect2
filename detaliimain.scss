@@ -2,6 +2,10 @@
                     @import "mixinuri";
                     @media (min-width: 320px) {
                         main {
+                            .containerf {
+                                padding: 0 16px;
+                                ;
+                            }
                             .container {
                                 padding: 0 16px;
                             }
