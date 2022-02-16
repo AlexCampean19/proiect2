@@ -15,14 +15,14 @@
                             }
                             .hmpage {
                                 span {
-                                    @include tipografie (14px, bold, 18px, $cultitlu);
+                                    @include tipografie (14px, 800, 18px, $cultitlu);
                                 }
                                 width: 100%;
                                 padding-top: 10px;
                                 padding-bottom: 11px;
                                 a {
                                     text-decoration: none;
-                                    @include tipografie(14px, normal, 18px, $backfot)
+                                    @include tipografie(14px, 600, 18px, $backfot)
                                 }
                             }
                             img {
@@ -36,7 +36,7 @@
                                 left: 0;
                             }
                             h1 {
-                                @include tipografie (24px, bold, 26px, $cultitlu);
+                                @include tipografie (24px, 800, 26px, $cultitlu);
                                 margin: 0;
                                 padding-top: 25px;
                                 padding-bottom: 23px;
@@ -48,6 +48,7 @@
                                     padding-left: 5.5px;
                                     display: inline-block;
                                     padding-left: 103px;
+                                    @include tipografie(14px, 700, 18px, $cultitlu);
                                     &.unu,
                                     &.doi {
                                         span {
@@ -88,7 +89,7 @@
                             .preturi2 {
                                 padding-top: 6px;
                                 p {
-                                    @include tipografie(24px, bold, 24.3px, $culpretred);
+                                    @include tipografie(24px, 700, 24.3px, $culpretred);
                                     margin: 0;
                                     padding: 0;
                                     padding-right: 10px;
@@ -97,14 +98,14 @@
                                 span {
                                     text-decoration: line-through;
                                     margin: 0;
-                                    @include tipografie(18px, bold, 24.3px, $fottitlu)
+                                    @include tipografie(18px, 700, 24.3px, $fottitlu)
                                 }
                             }
                             .detaliu {
-                                @include tipografie(14px, normal, 16px, $cultitlu)
+                                @include tipografie(14px, 600, 16px, $cultitlu)
                             }
                             h4 {
-                                @include tipografie( 18px, normal, 26px, $culsubtitlu);
+                                @include tipografie( 18px, 400, 26px, $culsubtitlu);
                                 margin: 0;
                                 padding-bottom: 10px;
                             }
@@ -133,23 +134,23 @@
                                     color: white;
                                 }
                                 span {
-                                    @include tipografie(22px, bold, 27px, $alb)
+                                    @include tipografie(22px, 700, 27px, $alb)
                                 }
                             }
                             .detaliifructe {
                                 padding-bottom: 16px;
                                 padding-top: 18px;
                                 h3 {
-                                    @include tipografie(16px, bold, 18px, $culbacklact);
+                                    @include tipografie(16px, 800, 18px, $culbacklact);
                                     margin: 0;
                                 }
                                 p {
-                                    @include tipografie(16px, bold, 18px, $cultitlu);
+                                    @include tipografie(16px, 800, 18px, $cultitlu);
                                     margin: 0;
                                     padding: 0;
                                 }
                                 ul {
-                                    @include tipografie(16px, bold, 18px, $cultitlu);
+                                    @include tipografie(16px, 800, 18px, $cultitlu);
                                     margin: 0;
                                     padding-left: 10px;
                                     list-style-position: inside;
@@ -308,7 +309,7 @@
                             }
                             .stele {
                                 p {
-                                    @include tipografie(14px, bold, 18px, $cultitlu);
+                                    @include tipografie(14px, 700, 18px, $cultitlu);
                                     padding-left: 120px;
                                     &.doi {
                                         max-width: 96px;
@@ -328,25 +329,25 @@
                                 padding: 0 40px;
                             }
                             h1 {
-                                @include tipografie(32px, bold, 36px, $cultitlu);
+                                @include tipografie(32px, 800, 36px, $cultitlu);
                                 padding-bottom: 69px;
                                 padding-top: 0px;
                             }
                             .detaliu {
-                                @include tipografie(22px, bold, 36px, $cultitlu);
+                                @include tipografie(22px, 800, 36px, $cultitlu);
                                 padding-top: 20px;
                                 padding-bottom: 30px;
                             }
                             .detaliifructe {
                                 padding: 50px 0 50px 0;
                                 h3 {
-                                    @include tipografie(22px, bold, 36px, $culbacklact);
+                                    @include tipografie(22px, 800, 36px, $culbacklact);
                                 }
                                 ul {
-                                    @include tipografie(22px, bold, 36px, $cultitlu);
+                                    @include tipografie(22px, 800, 36px, $cultitlu);
                                 }
                                 p {
-                                    @include tipografie(22px, bold, 36px, $cultitlu);
+                                    @include tipografie(22px, 800, 36px, $cultitlu);
                                 }
                             }
                             .stele {

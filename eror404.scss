@@ -22,19 +22,19 @@
         display: flex;
         align-items: center;
         h1 {
-            @include tipografie(100px, bold, 98px, $fottitlu);
+            @include tipografie(100px, 800, 98px, $fottitlu);
             text-align: center;
             margin: 0;
             padding: 5px;
         }
         h2 {
-            @include tipografie(60px, bold, 58px, $fottitlu);
+            @include tipografie(60px, 800, 58px, $fottitlu);
             text-align: center;
             margin: 0;
             padding: 5px;
         }
         p {
-            @include tipografie(30px, normal, 28px, $fottitlu);
+            @include tipografie(30px, 400, 28px, $fottitlu);
             text-align: center;
             margin: 0;
             padding: 5px;
