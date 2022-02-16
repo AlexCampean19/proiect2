@@ -858,6 +858,9 @@ main .fructe .card1 .detalii .stele3 {
   }
 }
 @media (min-width: 1400px) {
+  main .search2 form {
+    width: 35%;
+  }
   main .fructe .card1 {
     margin-bottom: 29px;
     width: calc((100% - 93px) / 4);
@@ -947,6 +950,26 @@ main .fructe .det2 {
   main .categori .card2:hover {
     box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08);
     background-color: #FFFFFF;
+  }
+}
+@media (min-width: 1600px) {
+  main .search2 form {
+    width: 30%;
+  }
+}
+@media (min-width: 1700px) {
+  main .search2 form {
+    width: 28%;
+  }
+}
+@media (min-width: 1900px) {
+  main .search2 form {
+    width: 24%;
+  }
+}
+@media (min-width: 2200px) {
+  main .search2 form {
+    width: 20%;
   }
 }
 body {
