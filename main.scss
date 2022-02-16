@@ -176,7 +176,7 @@
                             24px,
                             $cultitlu);
                             margin: 0;
-                            padding: 0;
+                            padding-bottom: 16px;
                         }
                         .detalii2 {
                             display: flex;
@@ -327,11 +327,14 @@
                         width: 85%;
                     }
                     .detalii {
+                        .pret {
+                            padding-top: 9.5px;
+                            padding-bottom: 16px;
+                        }
                         width: 85%;
                         .stele {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: baseline;
+                            display: inline-block;
+                            width: 115px;
                             padding-top: 14.5px;
                             position: relative;
                             letter-spacing: 8px;
@@ -355,6 +358,8 @@
                                     padding: 0;
                                     text-align: center;
                                     overflow-wrap: unset;
+                                    position: absolute;
+                                    z-index: 0;
                                     &:after {
                                         content: "\f005 \f005 \f005 \f005 \f005";
                                         color: $culsale;
@@ -364,6 +369,8 @@
                                     max-width: 80%;
                                     overflow: hidden;
                                     position: absolute;
+                                    z-index: 1;
+                                    width: 100%;
                                     &:after {
                                         color: $steagalbena;
                                     }
@@ -374,9 +381,8 @@
                             }
                         }
                         .stele2 {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: baseline;
+                            display: inline-block;
+                            width: 115px;
                             padding-top: 14.5px;
                             position: relative;
                             overflow-wrap: unset;
@@ -401,6 +407,8 @@
                                     padding: 0;
                                     text-align: center;
                                     overflow-wrap: unset;
+                                    position: absolute;
+                                    z-index: 0;
                                     &:after {
                                         content: "\f005 \f005 \f005 \f005 \f005";
                                         color: $culsale;
@@ -410,6 +418,8 @@
                                     max-width: 60%;
                                     overflow: hidden;
                                     position: absolute;
+                                    z-index: 1;
+                                    width: 100%;
                                     &:after {
                                         color: $steagalbena;
                                     }
@@ -420,9 +430,8 @@
                             }
                         }
                         .stele3 {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: baseline;
+                            display: inline-block;
+                            width: 115px;
                             padding-top: 14.5px;
                             position: relative;
                             letter-spacing: 8px;
@@ -446,6 +455,8 @@
                                     padding: 0;
                                     text-align: center;
                                     overflow-wrap: unset;
+                                    position: absolute;
+                                    z-index: 0;
                                     &:after {
                                         content: "\f005 \f005 \f005 \f005 \f005";
                                         color: $culsale;
@@ -455,6 +466,8 @@
                                     max-width: 100%;
                                     overflow: hidden;
                                     position: absolute;
+                                    z-index: 1;
+                                    width: 100%;
                                     &:after {
                                         color: $steagalbena;
                                     }
@@ -502,16 +515,16 @@
                         .detalii2 {
                             display: flex;
                             flex-direction: row-reverse;
-                            align-items: baseline;
+                            align-items: flex-start;
                             width: 100%;
                             flex-wrap: wrap;
                             justify-content: space-between;
-                            padding-bottom: 16px;
                             .preturi2 {
                                 justify-content: space-between;
                                 width: 100%;
                                 display: flex;
-                                align-items: baseline;
+                                align-items: flex-start;
+                                padding-bottom: 16px;
                                 .pret1 {
                                     margin-left: 5px;
                                 }
@@ -520,6 +533,7 @@
                                 }
                                 .pretred {
                                     display: inline-block;
+                                    padding-top: 6px;
                                 }
                             }
                         }
@@ -725,12 +739,13 @@
             }
             .fructe {
                 .card1 {
-                    width: calc((100% - 90px)/4);
+                    width: calc((100% - 90px)/3);
                     .detalii {
                         .stele,
                         .stele2,
                         .stele3 {
                             letter-spacing: 5px;
+                            width: 105px;
                         }
                     }
                 }
@@ -756,18 +771,12 @@
                         .stele2,
                         .stele3 {
                             padding-bottom: 0;
+                            width: 120px;
+                            letter-spacing: 8px;
                         }
                         .gramaj {
                             padding-bottom: 0px;
                             padding-top: 10px;
-                        }
-                        .salemb {
-                            margin-top: 16px;
-                        }
-                        .stele,
-                        .stele2,
-                        .stele3 {
-                            letter-spacing: 8px;
                         }
                     }
                 }
@@ -789,8 +798,6 @@
                     normal,
                     16px,
                     $cultxtsupl);
-                    font-family: "Nunito Sans,Caption";
-                    ;
                 }
                 .det3 {
                     display: inline-block;
@@ -815,8 +822,8 @@
                     display: flex;
                     flex-direction: row;
                     align-items: baseline;
-                    justify-content: space-between;
-                    width: 10%;
+                    justify-content: flex-end;
+                    width: 12%;
                 }
                 .lista {
                     display: flex;
