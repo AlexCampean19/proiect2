@@ -260,6 +260,9 @@
   }
 }
 @media (min-width: 800px) {
+  main .col-lg-4 {
+    width: 33.33%;
+  }
   main h1 {
     padding-bottom: 69px;
   }
@@ -326,6 +329,9 @@
 @media (min-width: 1200px) {
   main {
     padding-bottom: 24px;
+  }
+  main .col-lg-4 {
+    width: 33.33%;
   }
   main .preturi2 {
     padding: 0;
